@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="../../css/normalize.css?<?= $cacheBuster ?>" media="all" />
-
     <!-- Project specific -->
     <link rel="stylesheet" href="../../css/base.css?<?= $cacheBuster ?>" media="all" />
     <link rel="stylesheet" href="../../css/layout.css?<?= $cacheBuster ?>" media="all" />
