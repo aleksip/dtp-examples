@@ -1,6 +1,5 @@
 .idea
 node_modules
 /dist/css/**
-!/dist/css/normalize.css
-!/dist/css/pattern-scaffolding.css
+!/dist/css/.keep
 /pattern-lab
