@@ -1,0 +1,22 @@
+list_items:
+  - molecules-teaser
+  # Use include() to pass variables to the included pattern.
+  - include():
+      pattern: molecules-teaser
+      with:
+        title: 'A different title'
+        content: '<p>Different content</p>'
+  - include():
+      pattern: molecules-teaser
+      with:
+        title: 'Another different title'
+        content:
+          # Use join() to join together strings or even patterns.
+          join():
+            - '<p>'
+            - 'Different content'
+            - ' '
+            - 'joined from separate strings.'
+            - '</p>'
+  - molecules-teaser
+  - molecules-teaser
